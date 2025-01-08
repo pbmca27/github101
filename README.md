@@ -16,8 +16,6 @@ bash Copy code git remote set-url origin https://:@github.com//.git Example:
 bash Copy code git remote set-url origin https://pbmca27:ghp_ABC1234567890xyz@github.com/pbmca27/github101.git
 
 Alternative (Use SSH): Generate SSH Key (if not already done): bash Copy code ssh-keygen -t ed25519 -C "your-email@example.com" Add the SSH Key to GitHub: bash Copy code cat ~/.ssh/id_ed25519.pub Copy the key and add it under GitHub > Settings > SSH and GPG keys. Update Remote to SSH: bash Copy code git remote set-url origin git@github.com:pbmca27/github101.git Testing: bash Copy code git push -u origin main This should now work without prompting for a password.
-
-
 Links: 
 * Beginner & Professional: https://www.youtube.com/watch?v=S7XpTAnSDL4 
 * Advanced: https://www.youtube.com/watch?v=qsTthZi23VE 
