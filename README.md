@@ -59,9 +59,3 @@ bash
 Copy code
 git push -u origin main
 This should now work without prompting for a password.
------------------------------------
-
-Links:
-Beginner & Professional: https://www.youtube.com/watch?v=S7XpTAnSDL4
-Advanced: https://www.youtube.com/watch?v=qsTthZi23VE
-GitHub + GitHub Actions: https://www.udemy.com/course/github-actions-the-complete-guide/learn/lecture/34155388#overview
